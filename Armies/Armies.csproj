@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCA44AC2-199D-4A23-B042-F362070FA9BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Warhammer40KSimulator.Armies</RootNamespace>
+    <AssemblyName>Armies</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Factions\SpaceMarines\SpaceMarines.cs" />
+    <Compile Include="Factions\SpaceMarines\SpaceMarinesPictures.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpaceMarinesPictures.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Factions\SpaceMarines\Units\Captain.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\CaptainLysander.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\CaptainSicarius.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\CenobyteServitor.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\Chaplain.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ChaplainCassius.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ChaplainGrimaldus.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ChiefLibrarianTigurius.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\HighMarshalHelbrecht.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\HonourGuard.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\HonourGuardChampion.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\KorsarroKhan.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\Librarian.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\MarneusCalgar.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\MasterOfTheForge.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\PedroKantor.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\Scout.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ScoutBiker.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ScoutBikerSergeant.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ScoutSergeant.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\SergeantChronus.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\SergeantTelion.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\ShadowCaptainShrike.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\SpaceMarine.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\SpaceMarineBiker.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\SpaceMarineSergeant.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\Terminator.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\TerminatorCaptain.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\TerminatorSergeant.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\TheEmperorsChampion.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\Veteran.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\VeteranSergeant.cs" />
+    <Compile Include="Factions\SpaceMarines\Units\VulkanHestan.cs" />
+    <Compile Include="Interfaces\IFaction.cs" />
+    <Compile Include="Interfaces\IUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="UnitConstants.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArmyData\Space Marines\Terminator.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factions\SpaceMarines\SpaceMarinesPictures.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpaceMarinesPictures.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArmyData\Space Marines\SpaceMarine.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArmyData\Space Marines\Scout.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\SpaceMarineBiker.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\TerminatorSergeant.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\Veteran.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArmyData\Space Marines\CaptainLysander.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\CaptainSicarius.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ChaplainCassius.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ChaplainGrimaldus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ChiefLibrarianTigurius.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\HighMarshalHelbrecht.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\KorsarroKhan.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\Librarian.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\MarneusCalgar.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\PedroKantor.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ScoutBiker.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ScoutBikerSergeant.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ScoutSergeant.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\SergeantChronus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\SergeantTelion.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\ShadowCaptainShrike.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\SpaceMarineSergeant.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\TheEmperorsChampion.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\VeteranSergeant.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\VulkanHestan.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArmyData\Space Marines\Captain.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\CenobyteServitor.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\Chaplain.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\HonourGuard.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\HonourGuardChampion.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\MasterOfTheForge.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmyData\Space Marines\TerminatorCaptain.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Gareth_Marneus2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\80bab866b89767630e9e7e5bc0d17188_14569.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\180px-ChapterMasterPedroKantor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\9378032094_e51b5df003_m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\1352320765056.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\black_templars_high_marshal_helbrecht_by_cene801-d4wavsp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\chaplain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Chaplain_Cassius_Model.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\chapterchampion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\emperors_champ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\honorguard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\hämta %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\hämta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\librarian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\m1860114_99060101393_40kSMCronus1_873x627.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\masteroftheforge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\shadow-captain-kayvaan-shrike.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sicarius1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\terminatorcaptain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Ultramarine_Chief_Librarian_Tigurius_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\us05balt_staffsingle_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\vulkan_hestan.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<unit>
+  <values>
+    <weaponskill>6</weaponskill>
+    <ballisticskill>4</ballisticskill>
+    <strength>4</strength>
+    <toughness>4</toughness>
+    <wounds>2</wounds>
+    <initiative>5</initiative>
+    <attacks>2</attacks>
+    <leadership>10</leadership>
+    <armorsave>2</armorsave>
+  </values>
+</unit>

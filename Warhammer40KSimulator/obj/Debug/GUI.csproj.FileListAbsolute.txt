@@ -1,0 +1,50 @@
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Warhammer40KSimulator.exe.config
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Warhammer40KSimulator.exe
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Warhammer40KSimulator.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Presentation.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Armies.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Presentation.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Armies.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Controls.ArmyChooser.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Controls.FactionChooser.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Controls.PreviewPicturePanel.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Controls.UnitStatsViewer.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Form1.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.Properties.Resources.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.exe
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Debug\Warhammer40KSimulator.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Terminator.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\SpaceMarine.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Scout.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\SpaceMarineBiker.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\TerminatorSergeant.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Veteran.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ScoutBiker.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ScoutBikerSergeant.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ScoutSergeant.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\SpaceMarineSergeant.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\VeteranSergeant.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\CaptainLysander.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\CaptainSicarius.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ChaplainCassius.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ChaplainGrimaldus.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ChiefLibrarianTigurius.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\HighMarshalHelbrecht.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\KorsarroKhan.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Librarian.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\MarneusCalgar.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\PedroKantor.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\SergeantChronus.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\SergeantTelion.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\ShadowCaptainShrike.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\TheEmperorsChampion.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\VulkanHestan.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Captain.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\CenobyteServitor.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\Chaplain.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\HonourGuard.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\HonourGuardChampion.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\MasterOfTheForge.xml
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\ArmyData\Space Marines\TerminatorCaptain.xml

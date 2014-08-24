@@ -1,0 +1,5 @@
+2014/08/24-23:39:00.900 2cdc Recovering log #61
+2014/08/24-23:39:00.900 2cdc Level-0 table #63: started
+2014/08/24-23:39:00.906 2cdc Level-0 table #63: 2802 bytes OK
+2014/08/24-23:39:00.912 2cdc Delete type=0 #61
+2014/08/24-23:39:00.912 2cdc Delete type=3 #59

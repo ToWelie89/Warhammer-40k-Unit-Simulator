@@ -1,0 +1,4 @@
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Armies\bin\Release\Armies.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Armies\bin\Release\Armies.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Armies\obj\Release\Armies.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Armies\obj\Release\Armies.pdb

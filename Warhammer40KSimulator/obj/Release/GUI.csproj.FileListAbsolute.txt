@@ -1,0 +1,15 @@
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Warhammer40KSimulator.exe.config
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Warhammer40KSimulator.exe
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Warhammer40KSimulator.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Presentation.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Armies.dll
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Presentation.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Release\Armies.pdb
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.Controls.ArmyChooser.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.Controls.FactionChooser.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.Form1.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.Properties.Resources.resources
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.exe
+C:\Users\Martin\Documents\Visual Studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\obj\Release\Warhammer40KSimulator.pdb

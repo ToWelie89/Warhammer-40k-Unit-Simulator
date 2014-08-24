@@ -1,0 +1,1 @@
+c:\users\martin\documents\visual studio 2012\Projects\Warhammer40KSimulator\Warhammer40KSimulator\bin\Debug\Warhammer40KSimulator.exe.config

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "Warhammer40KSimulator\GUI.csproj", "{116CECA4-5F28-4DF7-8666-F98B0ECC14A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Model", "1. Model", "{C89A53F3-E310-4BEA-AC06-C0C060CFA3E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. View", "2. View", "{D01B5064-04BC-4EA0-B8C9-CE4D3CAA4AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armies", "Armies\Armies.csproj", "{BCA44AC2-199D-4A23-B042-F362070FA9BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Presentation", "3. Presentation", "{CA7340AB-31B3-464D-9E71-FA87BD85B809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{525E0B41-5B4B-4797-BAF5-5673E1F79FCF}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116CECA4-5F28-4DF7-8666-F98B0ECC14A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116CECA4-5F28-4DF7-8666-F98B0ECC14A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116CECA4-5F28-4DF7-8666-F98B0ECC14A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116CECA4-5F28-4DF7-8666-F98B0ECC14A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA44AC2-199D-4A23-B042-F362070FA9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA44AC2-199D-4A23-B042-F362070FA9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA44AC2-199D-4A23-B042-F362070FA9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA44AC2-199D-4A23-B042-F362070FA9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525E0B41-5B4B-4797-BAF5-5673E1F79FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525E0B41-5B4B-4797-BAF5-5673E1F79FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525E0B41-5B4B-4797-BAF5-5673E1F79FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525E0B41-5B4B-4797-BAF5-5673E1F79FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{116CECA4-5F28-4DF7-8666-F98B0ECC14A2} = {D01B5064-04BC-4EA0-B8C9-CE4D3CAA4AFB}
+		{BCA44AC2-199D-4A23-B042-F362070FA9BF} = {C89A53F3-E310-4BEA-AC06-C0C060CFA3E7}
+		{525E0B41-5B4B-4797-BAF5-5673E1F79FCF} = {CA7340AB-31B3-464D-9E71-FA87BD85B809}
+	EndGlobalSection
+EndGlobal
